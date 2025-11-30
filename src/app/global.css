@@ -3,14 +3,27 @@
 
 @theme {
   --font-poppins: "Poppins", sans-serif;
-  --color-accent-lime: "#8bff8e";
+  --color-accent-lime: #8bff8e;
+  --color-dark: #1d1d1d;
+}
+
+body {
+  background-color: #f3f3f3;
+  color: var(--color-dark);
 }
 
 .highlight {
-  background-color: #8bff8e;
-  width: 72px;
-  height: 32px;
-  /* top: 80px; */
+  background-color: var(--color-accent-lime);
+  width: 60px;
+  height: 14px;
+  top: 79px;
   position: absolute;
   z-index: -1;
+}
+
+.test {
+  outline-color: #1d1d1d;
+  outline-width: 1px 5px 5px 1px;
+  outline-style: dashed;
+  border-bottom: 8px solid;
 }
