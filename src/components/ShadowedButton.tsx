@@ -19,7 +19,7 @@ const ShadowedButton = ({ title, onClick }: IShadowButton) => {
   return (
     <div
       className={`rounded-[10] px-[2] pt-px bg-(--color-based-black) size-fit ${
-        pressed ? "mt-[28] pb-[4]" : "pb-[8]"
+        pressed ? "mt-[4] pb-[4]" : "pb-[8]"
       }`}
     >
       <button
