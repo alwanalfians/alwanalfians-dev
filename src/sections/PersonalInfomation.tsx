@@ -6,12 +6,10 @@ import Resume from "@/components/Resume";
 
 const PersonalInformation = () => {
   return (
-    <div className="col-span-4">
+    <div className="col-span-1">
       <Brand />
       <Avatar />
-      <div className="mt-[40] pb-[28]">
-        <Greetings />
-      </div>
+      <Greetings />
       <Resume />
       <Contacts />
     </div>

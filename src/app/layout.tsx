@@ -15,7 +15,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className="font-poppins pt-8">{children}</body>
+      <body className="font-poppins pt-8 px-12 md:px-24 lg:px-56">{children}</body>
     </html>
   );
 }

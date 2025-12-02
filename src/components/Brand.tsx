@@ -8,8 +8,8 @@ const Brand = () => {
       : "alwanalfians";
 
   return (
-    <Link href={"/"} className="flex grid-row justify-content">
-      <div className="w-[58] h-[61] mr-2">
+    <Link href={"/"} className="flex grid-row">
+      <div className="w-[58] h-[61] mr-[8]">
         <Image
           src="/logo_green.webp"
           alt={"alwanalfians_logo"}
