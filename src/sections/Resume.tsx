@@ -1,4 +1,4 @@
-import ShadowedButton from "./ShadowedButton";
+import ShadowedButton from "../components/ShadowedButton";
 
 const Resume = () => {
   return <ShadowedButton title="Get My Resume!" />;

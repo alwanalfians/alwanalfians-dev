@@ -1,5 +1,5 @@
 import { socials } from "@/data/socials";
-import ShadowedButton from "./ShadowedButton";
+import ShadowedButton from "../components/ShadowedButton";
 
 const Contacts = () => {
   return (

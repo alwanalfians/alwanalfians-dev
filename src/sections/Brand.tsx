@@ -1,17 +1,15 @@
+import { getTitle } from "@/helpers";
 import Image from "next/image";
 import Link from "next/link";
 
 const Brand = () => {
-  const title =
-    typeof process.env.title !== "undefined"
-      ? process.env.title
-      : "alwanalfians";
+  const title = getTitle();
 
   return (
     <Link href={"/"} className="flex grid-row">
       <div className="w-[58] h-[61] mr-[8]">
         <Image
-          src="/logo_green.webp"
+          src="/alwanalfians_outline_logo.svg"
           alt={"alwanalfians_logo"}
           width={58}
           height={61}

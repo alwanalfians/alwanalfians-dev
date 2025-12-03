@@ -20,7 +20,11 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@sections/*": ["./src/sections/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@data/*": ["./src/data/*"]
     }
   },
   "include": [

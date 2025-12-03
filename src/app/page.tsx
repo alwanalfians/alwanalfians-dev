@@ -1,12 +1,13 @@
 "use client";
 
-import PersonalInformation from "@/sections/PersonalInfomation";
+import Branding from "@layouts/Branding";
+import Showcase from "@layouts/Showcase";
 
 const Home = () => {
   return (
     <div className="grid grid-cols-2">
-      <PersonalInformation />
-      <div className="col-span-1"></div>
+      <Branding />
+      <Showcase />
     </div>
   );
 };

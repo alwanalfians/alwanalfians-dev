@@ -8,11 +8,6 @@
   --color-based-white: #f3f3f3;
 }
 
-body {
-  background-color: var(--color-based-white);
-  color: var(--color-based-black);
-}
-
 .brand_highlight {
   background-color: var(--color-accent-lime);
   width: 60px;
