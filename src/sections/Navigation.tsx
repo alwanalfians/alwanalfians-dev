@@ -14,10 +14,8 @@ const Navigation = () => {
         {Menu.map((item, index) => (
           <button
             key={index}
-            className={`py-2 px-4 text-xl font-bold ${
-              activeTab === index
-                ? "border-b-2 border-blue-500 text-blue-600"
-                : "hover:text-gray-700"
+            className={`cursor-pointer py-2 px-4 text-xl font-bold hover:text-2xl ${
+              activeTab === index ? "" : ""
             }`}
             onClick={() => setActiveTab(index)}
           >
